@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: test jmeter action
-        uses: tush-tr/setup-jmeter@main
+        uses: actions/setup-jmeter@v1.1.0
